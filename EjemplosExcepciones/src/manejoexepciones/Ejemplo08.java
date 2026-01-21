@@ -30,6 +30,10 @@ public class Ejemplo08 {
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }
+        /*
+        El catch Exception e, permite capturar cualquier tipo de error que haya
+        en el código
+        */
         
         
                
