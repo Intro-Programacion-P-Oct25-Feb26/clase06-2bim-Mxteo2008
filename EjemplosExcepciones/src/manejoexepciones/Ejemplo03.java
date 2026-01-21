@@ -21,6 +21,7 @@ public class Ejemplo03 {
             
         }
         catch(ArithmeticException arithmeticException){
+           
             
             System.out.println("Lo sentimos hay un error");
             System.out.printf("De tipo %s\n", arithmeticException);
