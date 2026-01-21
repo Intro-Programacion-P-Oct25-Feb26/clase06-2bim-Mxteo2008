@@ -28,6 +28,13 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /*
+                Se ubicó el while para que el codigo se repita hasta que se ubi-
+                quen los valores correctos, es decir, si se ubican mal los valo-
+                res, el codigo va a saltarse directo al catch del error, saltan-
+                dose el bandera = false que hace que se repita todo
+           
+                */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
